@@ -1,0 +1,37 @@
+{
+    "name": "waapatricio/cielo",
+    "description": "Cielo payment driver for Lunar",
+    "type": "project",
+    "keywords": ["lunarphp", "laravel", "ecommerce", "e-commerce", "headless", "store", "shop", "cart", "cielo"],
+    "require": {
+        "php": "^8.0",
+        "lunarphp/lunar": "^0.3",
+        "livewire/livewire": "^2.0",
+        "developercielo/api-3.0-php": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Waapatricio\\Cielo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Washington Patrício",
+            "email": "washington@tappa.co"
+        }
+    ],
+    "extra": {
+        "lunar": {
+            "name": "Cielo Payments"
+        },
+        "laravel": {
+            "providers": [
+                "Waapatricio\\Cielo\\CieloPaymentsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+
+}
