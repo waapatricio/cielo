@@ -5,9 +5,9 @@
     "keywords": ["lunarphp", "laravel", "ecommerce", "e-commerce", "headless", "store", "shop", "cart", "cielo"],
     "require": {
         "php": "^8.0",
-        "lunarphp/lunar": "^0.3",
+        "lunarphp/lunar": "^0.4",
         "livewire/livewire": "^2.0",
-        "developercielo/api-3.0-php": "dev-master"
+        "developercielo/api-3.0-php": "^1.2"
     },
     "license": "MIT",
     "autoload": {
@@ -31,7 +31,7 @@
             ]
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 
 }
